@@ -29,6 +29,7 @@ namespace AzureAD_V2_ASPmvcWebApp.Controllers
                 string signedInUserID = ClaimsPrincipal.Current.FindFirst(ClaimTypes.NameIdentifier).Value;
                 TokenCache userTokenCache = new MSALSessionCache(signedInUserID, this.HttpContext).GetMsalCacheInstance();
                 ConfidentialClientApplication cca = new ConfidentialClientApplication(Startup.ClientId, Startup.Authority, Startup.RedirectUri, new ClientCredential(Startup.ClientSecret), userTokenCache, null);
+                //AccountId ai = new AccountId(Startup.Authority,Startup.Tenant,);
 
                 var user = cca.Users.FirstOrDefault();
                 if (user == null)
