@@ -27,6 +27,13 @@ namespace AzureAD_V2_ASPmvcWebApp.Controllers
             return View();
         }
 
+        [Authorize]
+        public ActionResult Claims()
+        {
+            ViewBag.Message = "Your application description page.";
+            return View();
+        }
+        
         public ActionResult Error(string message)
         {
             ViewBag.Message = message;
