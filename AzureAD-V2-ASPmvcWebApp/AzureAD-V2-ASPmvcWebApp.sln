@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAD-V2-ASPmvcWebApp", "AzureAD-V2-ASPmvcWebApp\AzureAD-V2-ASPmvcWebApp.csproj", "{B4AADF62-6288-4AEA-B7CA-DAE787C69FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureAD-V2-ASPmvcWebAPI", "AzureAD-V2-ASPmvcWebAPI\AzureAD-V2-ASPmvcWebAPI.csproj", "{1A30E940-72AE-483D-918F-97453881B7B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{B4AADF62-6288-4AEA-B7CA-DAE787C69FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4AADF62-6288-4AEA-B7CA-DAE787C69FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4AADF62-6288-4AEA-B7CA-DAE787C69FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A30E940-72AE-483D-918F-97453881B7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A30E940-72AE-483D-918F-97453881B7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A30E940-72AE-483D-918F-97453881B7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A30E940-72AE-483D-918F-97453881B7B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9854814-3402-4F47-8334-1720A30E372F}
 	EndGlobalSection
 EndGlobal
